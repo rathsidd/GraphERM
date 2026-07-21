@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: GraphERM
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Rath
+    given-names: Siddharth
+    orcid: "https://orcid.org/0000-0002-8584-2877"
+repository-code: "https://github.com/rathsidd/GraphERM"
+url: "https://github.com/rathsidd/GraphERM"
+abstract: >-
+  High-performance parallel engine for Euclidean Random Matrix (ERM)
+  tracking on graphs. Computes multi-metric eigensystem criticality,
+  localized level-spacing contractions, and wavefunction delocalization
+  across M = 1000 ensemble realizations. Implements the pyRMT-Sieve
+  algorithm across 1D, 2D, and 3D geometric point clouds with uniform
+  and periodic grid coordinate regimes.
+keywords:
+  - random matrix theory
+  - Euclidean random matrices
+  - Anderson localization
+  - GOE
+  - eigensystem criticality
+  - wavefunction delocalization
+  - Shannon entropy
+  - computational physics
+license: GPL-3.0
+version: 1.0.0-pre
+date-released: "2026-07-21"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21464997"
+    description: Zenodo archive DOI

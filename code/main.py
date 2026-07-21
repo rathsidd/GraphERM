@@ -7,6 +7,10 @@ Produces 4 panels x 3 node counts x 3 dimensions x 2 regimes
 """
 
 import numpy as np
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 
 from config import SpaceConfig
 from geometry import CoordinateGenerator
