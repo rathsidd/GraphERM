@@ -2,7 +2,7 @@
 
 **High-performance parallel engine for Euclidean Random Matrix (ERM) tracking on graphs.**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.<your-zenodo-id>.svg)](https://doi.org/10.5281/zenodo.<your-zenodo-id>)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21464997.svg)](https://doi.org/10.5281/zenodo.21464997)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 
@@ -260,7 +260,7 @@ If you use GraphERM in your research, please cite it using the metadata in
              Euclidean Random Matrix tracking on graphs},
   year    = {2026},
   url     = {https://github.com/rathsidd/GraphERM},
-  doi     = {10.5281/zenodo.<your-zenodo-id>},
+  doi     = {10.5281/zenodo.21464997},
   license = {GPL-3.0}
 }
 ```
