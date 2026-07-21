@@ -27,7 +27,7 @@ keywords:
   - Shannon entropy
   - computational physics
 license: GPL-3.0
-version: 1.0.0-pre
+version: 1.0.0
 date-released: "2026-07-21"
 identifiers:
   - type: doi
