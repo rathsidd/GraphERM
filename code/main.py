@@ -21,7 +21,7 @@ NODE_COUNTS = [729, 4096, 15625]
 DIMENSIONS = [1, 2, 3]
 REGIMES = ["uniform", "grid"]
 M_REALIZATIONS = 1000  # Strict compliance with the Law of Large Numbers
-
+RANDOM_SEED = 42
 
 def run_simulation(n_nodes: int, dimensions: int, regime: str) -> None:
     """Run the full sweep pipeline for one (n_nodes, dimensions, regime) case.
@@ -38,7 +38,8 @@ def run_simulation(n_nodes: int, dimensions: int, regime: str) -> None:
         f"D={dimensions}, Regime={regime})...\n"
         f"{'=' * 60}"
     )
-
+    
+    np.random.seed(RANDOM_SEED)
     config = SpaceConfig(
         dimensions=dimensions, node_count=n_nodes, regime=regime
     )
